@@ -1,5 +1,6 @@
-# javascript
-
+# HTML,CSS, javascript
+https://hayeon123.github.io/javascript
+--- 
 float: left 
 - 왼쪽으로 정렬됨.-- 
 - inline구조로 변함
@@ -9,7 +10,7 @@ float: left
   - right: float right의 값이 사라짐 
   - both: float 양쪽의 값이 사라짐 
 
-----------
+---
 
 #### 참고 사이트 
 
