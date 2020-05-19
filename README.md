@@ -1,5 +1,5 @@
 # HTML,CSS, javascript
-https://hayeon123.github.io/javascript
+https://hayeon123.github.io/HTML_CSS
 --- 
 float: left 
 - 왼쪽으로 정렬됨.-- 
