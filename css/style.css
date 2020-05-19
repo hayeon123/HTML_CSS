@@ -9,10 +9,10 @@
 #wrap{}
 #header{width:100%; height:325px ; background:url(../img/header_bg.jpg) center top repeat-x;}
 #contents{}
-#footer{width:100%; height:200px ; background:#333;}
+#footer{border-top:1px solid #eee;}
 
 /* 컨텐츠 레이아웃 */
-#cont_nav{background-color: #f6fdff;}
+#cont_nav{background-color: #f6fdff; display: none;} 
 #cont_tit{background-color: #EAF7FD;}
 #cont_ban{background-color: #dceff7;}
 #cont_cont{background-color: #f6fdff;}
@@ -66,7 +66,7 @@
 .tit{position: relative;}
 .tit h2{font-size: 40px; text-align: center; padding:5px 0; letter-spacing: 2px; color:#2c94c4; font-family: 'Nanum Brush Script'}
 .tit .btn{position: absolute; top:5px;right:0; width:60px; height: 60px; background: url(../img/icon.png) no-repeat 0 -600px;}
-
+.tit .btn.on{background-position: 0 -660px;}
 /* 배너 */
 .ban{position: relative;padding:24px 0 20px;}
 .ban a.prev{position: absolute;left:-60px; top:60px;width:43px; height:43px;background:url(../img/icon.png) no-repeat -150px 0;}
@@ -215,7 +215,7 @@ width: 100%;display:block;}
 .gallery .gallery_img img{width: 100%;}
 
 /* 로그인 */
-#login_form{background: #f2f4f5; padding:15px;}
+#login-wrap{margin-bottom:15px;background: #f2f4f5; padding:15px;}
 .login_header{overflow: hidden; font-size: 12px; height: 30px;;}
 .login_header .lh_check{float: left; padding-right: 15px;}
 /* .login_header .lh_check .input_check{vertical-align: -2px;  } */
@@ -230,3 +230,20 @@ width: 100%;display:block;}
 .login_footer{margin-top: 5px;}
 .login_footer li{display: inline;}
 .login_footer li a{font-size: 12px;}
+
+
+/* 팝업 */
+.popup{margin-top:15px;}
+.popup h4{font-size: 14px;color:#0093bd; padding-bottom: 4px;font-weight: 700;}
+.popup ul{overflow: hidden;}
+.popup li{float:left; width:93px; margin-right:5px;}
+.popup li.last{margin-right: 0;}
+.popup li img{width: 100%;}
+
+/* 푸터 */
+.footer{padding:25px 0; text-align: center;}
+.footer ul{margin-bottom: 15px;}
+.footer li{position:relative; display: inline; padding:0 7px 0 10px;}
+.footer li:before{content:''; width:1px; height:12px; background:#ccc;  position: absolute; left:0; top:2px;} 
+.footer li:first-child::before{width:0; height:0;}
+

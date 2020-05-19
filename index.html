@@ -245,6 +245,16 @@
                                 </form>
                             </div>
                             <!-- //로그인 -->
+                            <!-- 팝업 -->
+                            <div class="popup">
+                                <h4>Advertisement</h4>
+                                <ul>
+                                    <li><a href="#"><img src="img/sban07.jpg" alt="이미지1"></a></li>
+                                    <li><a href="#"><img src="img/sban08.jpg" alt="이미지2"></a></li>
+                                    <li class="last"><a href="#"><img src="img/sban09.jpg" alt="이미지3"></a></li>
+                                </ul>
+                            </div>
+                            <!-- //팝업 -->
                         </div> 
                         <!--//col3-->
                         <div class="column col4">
@@ -380,11 +390,47 @@
         </div>
         <!-- //contents -->
         <div id="footer">
-            <div class="container">footer</div>
+            <div class="container">
+                <h2 class="ir_su">footer</h2>
+                <div class="footer">
+                    <ul>
+                        <li><a href="#">사이트 도움말</a></li>
+                        <li><a href="#">사이트 이용약관</a></li>
+                        <li><a href="#">사이트 운영규칙</a></li>
+                        <li><a href="#"><strong>개인정보취급방침</strong></a></li>
+                        <li><a href="#">책임의 한계와 법적고지</a></li>
+                        <li><a href="#">게시중단요청 서비스</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                    <address>
+                        Copyright&copy; All Right Rederved
+                    </address>
+                    <div class="w3c">
+
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- //footer -->
         
     </div>
-    <!-- wrap -->
+    <!--// wrap -->
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        //버튼을 클릭하면 전체 메뉴를 보이게
+        $(".tit .btn").click(function(e){
+            e.preventDefault();
+            // $("#cont_nav").css("display","block")
+            // $("#cont_nav").show();
+            // $("#cont_nav").fadeIn();
+            // $("#cont_nav").slideDown();
+            // $("#cont_nav").toggle();
+            // $("#cont_nav").fadeToggle();
+            $("#cont_nav").slideToggle(100);
+            $(this).toggleClass("on");
+
+        })
+    </script>
 </body>
 </html>
